@@ -14,18 +14,21 @@ html, body
 }
 .footer
 {
-    margin-top: -5%;
+
     flex: 0 0 auto;
     align-items: center;
     text-align: center;
     height: 10%;
+    background-color: #e7e7e7;
+    margin: 0 5% 0;
+
+
 }
 .content
 {
     margin: 0 5% 0;
     display: flex;
     flex-direction: column;
-    height: 90%;
     background-color: #e7e7e7;
     font: 15pt sans;
     align-items: center;
@@ -47,10 +50,14 @@ html, body
 }
 .creators
 {
+    text-align: center;
+    align-items: center;
     font: 15pt sans;
+    position:absolute;
+    bottom:0;
+    align-self: center;
 }
 .authorsLinks
 {
     margin: 1% 33px;
-
 }
